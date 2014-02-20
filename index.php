@@ -87,14 +87,11 @@
                 });
             });
         </script>
-
     </head>
     <body>
         <div class="container">
             <h1> Subida y precarga ajax  </h1>
-
             <div id="respuesta" class="alert"></div>
-
             <form action="javascript:void(0);">
                 <div class="row">
                     <div class="col-lg-2"> 
