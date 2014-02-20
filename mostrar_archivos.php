@@ -1,5 +1,4 @@
 <?php
-
 $directorio_escaneado = scandir('archivos_subidos');
 $archivos = array();
 foreach ($directorio_escaneado as $item) {
@@ -8,5 +7,4 @@ foreach ($directorio_escaneado as $item) {
     }
 }
 echo json_encode($archivos);
-
 ?>
