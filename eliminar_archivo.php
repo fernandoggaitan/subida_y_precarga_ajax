@@ -1,5 +1,4 @@
 <?php
-
 if (isset($_POST['archivo'])) {
     $archivo = $_POST['archivo'];
     if (file_exists("archivos_subidos/$archivo")) {
@@ -9,5 +8,4 @@ if (isset($_POST['archivo'])) {
         echo 0;
     }
 }
-
 ?>
