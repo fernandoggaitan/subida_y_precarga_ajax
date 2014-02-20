@@ -1,5 +1,4 @@
 <?php
-
 if (isset($_FILES['archivo'])) {
     $archivo = $_FILES['archivo'];
     $extension = pathinfo($archivo['name'], PATHINFO_EXTENSION);
@@ -11,5 +10,4 @@ if (isset($_FILES['archivo'])) {
         echo 0;
     }
 }
-
 ?>
